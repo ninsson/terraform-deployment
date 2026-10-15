@@ -1,0 +1,17 @@
+aws_region          = "eu-west-1"
+vpc_name            = "cmtr-ow2fu6rh-vpc"
+subnet1_name        = "cmtr-ow2fu6rh-public-subnet1"
+subnet2_name        = "cmtr-ow2fu6rh-public-subnet2"
+sg_ssh_name         = "cmtr-ow2fu6rh-sg-ssh"
+sg_http_name        = "cmtr-ow2fu6rh-sg-http"
+sg_lb_name          = "cmtr-ow2fu6rh-sg-lb"
+lb_name             = "cmtr-ow2fu6rh-lb"
+blue_tg_name        = "cmtr-ow2fu6rh-blue-tg"
+green_tg_name       = "cmtr-ow2fu6rh-green-tg"
+blue_template_name  = "cmtr-ow2fu6rh-blue-template"
+green_template_name = "cmtr-ow2fu6rh-green-template"
+blue_asg_name       = "cmtr-ow2fu6rh-blue-asg"
+green_asg_name      = "cmtr-ow2fu6rh-green-asg"
+instance_type       = "t3.micro"
+blue_weight         = 100
+green_weight        = 0
